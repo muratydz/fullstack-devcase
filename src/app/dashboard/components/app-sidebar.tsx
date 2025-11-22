@@ -10,6 +10,7 @@ import { Menu, Search } from "lucide-react";
 import Link from "next/link";
 import * as React from "react";
 import NavMenu from "./nav-menu";
+
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" {...props} className="!border-r-0">
